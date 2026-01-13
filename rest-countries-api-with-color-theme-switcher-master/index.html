@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .container {
+        margin-left: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+      }
+      .boxes {
+        margin-top: 20px;
+        display: grid;
+        grid-template-areas:
+          "box1 box2 box3 box4"
+          "box5 box6 box7 box8";
+        gap: 30px;
+        width: 1300px;
+      }
+      .box1 {
+        display: grid;
+        grid-area: box1;
+
+        background-color: white;
+        border-radius: 20px;
+        border: 1px solid gray;
+        width: 280px;
+        height: 310px;
+        overflow: hidden;
+        line-height: 10px;
+      }
+      .box2 {
+        display: grid;
+        grid-area: box2;
+        background-color: white;
+        border-radius: 20px;
+        border: 1px solid gray;
+        width: 280px;
+        height: 310px;
+        overflow: hidden;
+        line-height: 10px;
+      }
+      .box3 {
+        display: grid;
+        grid-area: box3;
+        background-color: white;
+        border-radius: 20px;
+        border: 1px solid gray;
+        width: 280px;
+        height: 310px;
+        overflow: hidden;
+        line-height: 10px;
+      }
+      .box4 {
+        display: grid;
+        grid-area: box4;
+        background-color: white;
+        border-radius: 20px;
+        border: 1px solid gray;
+        width: 280px;
+        height: 310px;
+        overflow: hidden;
+        line-height: 10px;
+      }
+      .box5 {
+        display: grid;
+        grid-area: box5;
+        background-color: white;
+        border-radius: 20px;
+        border: 1px solid gray;
+        width: 280px;
+        height: 310px;
+        overflow: hidden;
+        line-height: 10px;
+      }
+      .box6 {
+        display: grid;
+        grid-area: box6;
+        background-color: white;
+        border-radius: 20px;
+        border: 1px solid gray;
+        width: 280px;
+        height: 310px;
+        overflow: hidden;
+        line-height: 10px;
+      }
+      .box7 {
+        display: grid;
+        grid-area: box7;
+        background-color: white;
+        border-radius: 20px;
+        border: 1px solid gray;
+        width: 280px;
+        height: 310px;
+        overflow: hidden;
+        line-height: 10px;
+      }
+      .box8 {
+        display: grid;
+        grid-area: box8;
+        background-color: white;
+        border-radius: 20px;
+        border: 1px solid gray;
+        width: 280px;
+        height: 310px;
+        overflow: hidden;
+        line-height: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div style="display: flex; flex-direction: row" class="top">
+        <h2>Where in the world?</h2>
+        <div
+          style="
+            margin-left: 950px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+          "
+          class="dark"
+        >
+          <img
+            width="30px"
+            height="30px"
+            src="design/Screenshot 2026-01-13 at 20.02.50.png"
+            alt=""
+          />
+          <p>Dark Mode</p>
+        </div>
+      </div>
+
+      <div class="flags">
+        <div
+          style="display: flex; flex-direction: row; gap: 670px"
+          class="search"
+        >
+          <fieldset
+            style="
+              border-radius: 5px;
+              width: 400px;
+              display: flex;
+              justify-content: start;
+              align-items: center;
+            "
+          >
+            <img
+              width="30px"
+              src="design/Screenshot 2026-01-13 at 20.07.20.png"
+              alt=""
+            />
+            <input
+              style="border: none"
+              type="text"
+              placeholder="Search for a country"
+            />
+          </fieldset>
+          <fieldset
+            style="
+              border-radius: 5px;
+              margin-left: -50px;
+              width: 200px;
+              display: flex;
+              justify-content: start;
+              align-items: center;
+            "
+          >
+            <input
+              style="border: none"
+              type="text"
+              placeholder="Filter by Region"
+            />
+            <img
+              width="30px"
+              src="design/Screenshot 2026-01-13 at 20.07.20.png"
+              alt=""
+            />
+          </fieldset>
+        </div>
+        <div class="boxes">
+          <div class="box1">
+            <img src="assets/Изображение JPEG-4D06-BB2F-93-5.jpeg" alt="" />
+            <div style="margin-left: 20px">
+              <p><b>Germany</b></p>
+              <p><b>Population:</b> 81,770,900</p>
+              <p><b>Region:</b>Europe</p>
+              <p><b>Capital:</b>Berlin</p>
+            </div>
+          </div>
+          <div class="box2">
+            <img
+              width="330px"
+              src="assets/Изображение JPEG-4D06-BB2F-93-7.jpeg"
+              alt=""
+            />
+            <div style="margin-left: 20px">
+              <p><b>United States of America</b></p>
+              <p><b>Population:</b>323.947.000</p>
+              <p><b>Region:</b>Americas</p>
+              <p><b>Capital:</b>Washington</p>
+            </div>
+          </div>
+          <div class="box3">
+            <img
+              width="290px"
+              height="180px"
+              src="assets/Изображение JPEG-4D06-BB2F-93-1.jpeg"
+              alt=""
+            />
+            <div style="margin-left: 20px">
+              <p><b>Brazil</b></p>
+              <p><b>Population:</b> 206,135,893</p>
+              <p><b>Region:</b>Americase</p>
+              <p><b>Capital:</b>Brasília</p>
+            </div>
+          </div>
+          <div class="box4">
+            <img
+              width="290px"
+              height="180px"
+              src="assets/Изображение JPEG-4D06-BB2F-93-6.jpeg"
+              alt=""
+            />
+            <div style="margin-left: 20px">
+              <p><b>Iceland</b></p>
+              <p><b>Population:</b> 334,300</p>
+              <p><b>Region:</b>Europe</p>
+              <p><b>Capital:</b>Reykjavik</p>
+            </div>
+          </div>
+          <div class="box5">
+            <img width="290px" height="180px" src="assets/AFGA.png" alt="" />
+            <div style="margin-left: 20px">
+              <p><b>Afghanistan</b></p>
+              <p><b>Population:</b> 27.657,145</p>
+              <p><b>Region:</b>Asia</p>
+              <p><b>Capital:</b>Kabul</p>
+            </div>
+          </div>
+          <div class="box6">
+            <img
+              style="margin-top: -45px"
+              width="290px"
+              height="270px"
+              src="assets/ALA.jpeg"
+              alt=""
+            />
+
+            <div style="margin-left: 20px; margin-top: -50px">
+              <p><b>Aland Islands</b></p>
+              <p><b>Population:</b> 28,875</p>
+              <p><b>Region:</b>Europe</p>
+              <p><b>Capital:</b>Mariehamn</p>
+            </div>
+          </div>
+          <div class="box7">
+            <img width="290px" height="180px" src="assets/ALBA.png" alt="" />
+            <div style="margin-left: 20px">
+              <p><b>Albania</b></p>
+              <p><b>Population:</b> 2,886,026</p>
+              <p><b>Region:</b>Europe</p>
+              <p><b>Capital:</b>Tirana</p>
+            </div>
+          </div>
+          <div class="box8">
+            <img
+              width="290px"
+              height="180px"
+              src="assets/Изображение JPEG-4D06-BB2F-93-0.jpeg"
+              alt=""
+            />
+            <div style="margin-left: 20px">
+              <p><b>Algeria</b></p>
+              <p><b>Population:</b> 40,400.000</p>
+              <p><b>Region:</b>Africa</p>
+              <p><b>Capital:</b>Algiers</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
